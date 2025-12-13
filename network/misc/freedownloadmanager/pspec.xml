@@ -11,7 +11,9 @@
         <Summary>FDM, güçlü bir modern indirme hızlandırıcısı ve düzenleyicisidir</Summary>
         <Description>FDM, Windows, Mac, Linux ve Android için güçlü bir modern çapraz platform indirme hızlandırıcısı ve düzenleyicisidir.</Description>
         <License>Freeware</License>
-        <Archive sha1sum="b3c799f767a22a46ef60195ef5699660f6fac20f" type="binary">https://files2.freedownloadmanager.org/6/latest/freedownloadmanager.deb</Archive>
+        <Archive sha1sum="4117a3a3bd5e3e9d64d96442b2d51d5934d2342b" type="binary">
+            https://files2.freedownloadmanager.org/6/latest/freedownloadmanager.deb
+        </Archive>
     </Source>
 
     <Package>
@@ -30,6 +32,13 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>2025-12-11</Date>
+            <Version>6.31.0.6549</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="3">
             <Date>2024-02-08</Date>
             <Version>6.20.0.5510</Version>

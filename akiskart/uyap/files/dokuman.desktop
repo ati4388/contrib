@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Comment[tr]=
+Comment=
+Exec=/usr/share/UYAPEditor/dokuman.sh
+Icon=uyap-editor
+GenericName[tr]=UYAP DOKUMAN EDITOR
+GenericName=UYAP DOKUMAN EDITOR
+Name[tr]=UYAP Dokuman Editor
+Name=UYAP Dokuman Editor
+MimeType=application/udf;
+Categories=UYAP;Office;Application;Utility;
+Type=Application
+Terminal=false

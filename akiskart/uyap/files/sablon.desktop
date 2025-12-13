@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Comment[tr]=
+Comment=
+Exec=/usr/share/UYAPEditor/sablon.sh
+Icon=uyap-editor
+GenericName[tr]=UYAP SABLON EDITOR
+GenericName=UYAP SABLON EDITOR 
+Name[tr]=UYAP Sablon Editor
+Name=UYAP Sablon Editor
+MimeType=application/usf;
+Categories=UYAP;Office;Application;Utility; 
+Type=Application
+Terminal=false

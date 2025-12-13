@@ -16,7 +16,8 @@
         <PartOf>programming.tools</PartOf>
         <Archive sha1sum="8c2f373cec0725cf0ff69b9afe8af576fd74b20b" type="binary">
             https://github.com/Figma-Linux/figma-linux/releases/download/v0.11.5/figma-linux_0.11.5_linux_amd64.zip
-        </Archive>       
+        </Archive>  
+        <!-- https://github.com/Figma-Linux/figma-linux/ -->     
     </Source>
 
     <Package>

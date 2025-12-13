@@ -12,10 +12,11 @@
         <Description>A messaging browser that allows you to combine your favorite messaging services into one application</Description>
         <License>Apache</License>
         <PartOf>Network</PartOf>
-        <Archive sha1sum="bd8bf58cb7a86dfcb14f09a6fe89de0c0e92c5a2" type="binary">
-            https://github.com/ferdium/ferdium-app/releases/download/v7.1.0/Ferdium-linux-7.1.0-amd64.deb
+        <Archive sha1sum="f7e6d4357724d35cfda1cbc5543c18f59f458f27" type="binary">
+            https://github.com/ferdium/ferdium-app/releases/download/v7.1.1/Ferdium-linux-7.1.1-amd64.deb
         </Archive>        
     </Source>
+    <!-- https://github.com/ferdium/ferdium-app/releases -->
     <Package>
         <Name>ferdium</Name>
         <RuntimeDependencies>
@@ -50,6 +51,13 @@
     </Package>
     
     <History>
+        <Update release="6">
+            <Date>2025-12-11</Date>
+            <Version>7.1.1</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="5">
             <Date>2025-09-30</Date>
             <Version>7.1.0</Version>

@@ -8,7 +8,7 @@ Icon=cursor
 StartupWMClass=cursor
 X-AppImage-Version=@@PKGVERSION@@
 MimeType=x-scheme-handler/cursor;
-Categories=Utility;TextEditor;Development;IDE
+Categories=Development;IDE;
 
 [Desktop Action new-empty-window]
 Name=New Empty Window

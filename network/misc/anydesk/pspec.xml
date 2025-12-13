@@ -15,41 +15,34 @@
         <Description xml:lang="tr"> İster ofisin diğer ucundan, ister dünyanın öbür ucundan bilgisayarınıza kolayca bağlanın. AnyDesk, hem BT profesyonelleri hem de hareket halindeki kullanıcılar için hızlı, güvenli ve güvenilir uzak masaüstü deneyimi sunar.</Description>
         <Description xml:lang="en">Connect to a computer remotely, be it from the other end of the office or halfway around the world. AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="1bb7b4c7fb93f2fb9e430f2d7242c22f392a3e55" type="targz">
-            https://download.anydesk.com/linux/anydesk-7.0.2-amd64.tar.gz
+        <Archive sha1sum="6d64d4fe537ba52f80581ceefb4c4a2a5681eb84" type="targz">
+            https://download.anydesk.com/linux/anydesk-7.1.1-amd64.tar.gz
         </Archive>       
     </Source>
 
     <Package>
         <Name>anydesk</Name>
         <RuntimeDependencies>
-            <Dependency>atk</Dependency>
-            <Dependency>gcc</Dependency>
-            <Dependency>gtk2</Dependency>
-            <Dependency>glibc</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>cairo</Dependency>
-            <Dependency>pango</Dependency>
-            <Dependency>libXi</Dependency>
-            <Dependency>libX11</Dependency>
-            <Dependency>libgcc</Dependency>
-            <Dependency>polkit</Dependency>
-            <Dependency>libxcb</Dependency>
-            <Dependency>libXtst</Dependency>
-            <Dependency>libXext</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>gtk3</Dependency>
             <Dependency>minizip</Dependency>
-            <Dependency>gtkglext</Dependency>
-            <Dependency>libglvnd</Dependency>
-            <Dependency>freetype</Dependency>
-            <Dependency>mesa-glu</Dependency>
-            <Dependency>libXrandr</Dependency>
-            <Dependency>shiboken2</Dependency>
+            <Dependency>libxkbfile</Dependency>
             <Dependency>libXfixes</Dependency>
             <Dependency>libXdamage</Dependency>
-            <Dependency>libxkbfile</Dependency>
-            <Dependency>fontconfig</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>libXi</Dependency>
+            <Dependency>libXext</Dependency>
+            <Dependency>libXtst</Dependency>
+            <Dependency>libXrandr</Dependency>
             <Dependency>libXrender</Dependency>
+            <Dependency>libxcb</Dependency>
+            <Dependency>polkit</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libgcc</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>glibc</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>libglvnd</Dependency>
             <Dependency>lsb-release</Dependency>
         </RuntimeDependencies>
         <Files>
@@ -61,14 +54,21 @@
             <Path fileType="data">/usr/share/polkit-1</Path>    
             <Path fileType="data">/etc/init.d</Path>              
         </Files>
-        <AdditionalFiles>
+        <!-- <AdditionalFiles>
             <AdditionalFile target="/usr/share/applications/anydesk.desktop" owner="root">anydesk.desktop</AdditionalFile>
             <AdditionalFile target="/usr/share/icons/anydesk.png">anydesk.png</AdditionalFile>
             <AdditionalFile target="/usr/share/pixmaps/anydesk.png">anydesk.png</AdditionalFile>
-        </AdditionalFiles>
+        </AdditionalFiles> -->
     </Package>
 
     <History>
+        <Update release="11">
+            <Date>2025-11-06</Date>
+            <Version>7.1.1</Version>
+            <Comment>Release bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="10">
             <Date>2025-09-07</Date>
             <Version>7.0.2</Version>

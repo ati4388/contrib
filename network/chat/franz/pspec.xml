@@ -20,7 +20,7 @@
             https://github.com/meetfranz/franz/releases/download/v5.11.0/franz-5.11.0.tar.gz
         </Archive>       
     </Source>
-
+    <!-- https://github.com/meetfranz/franz/releases -->
     <Package>
         <Name>franz</Name>
         <RuntimeDependencies>

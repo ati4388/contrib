@@ -14,8 +14,8 @@
         <Summary xml:lang="tr">Zoom, Video Konferansı ve Web Konferansı Hizmeti</Summary>
         <Description xml:lang="en">Zoom, the cloud meeting company, unifies cloud video conferencing, simple online meetings, and group messaging into one easy-to-use platform. Our solution offers the best video, audio, and screen-sharing experience across Zoom Rooms, Windows, Mac, Linux, iOS, Android, and H.323/SIP room systems.</Description>
         <Description xml:lang="tr">Zoom, bulut toplantı şirketi, bulut video konferansı, basit çevrimiçi toplantılar ve grup mesajlaşmasını tek kolay kullanıma sunan bir platforma birleştiriyor. Çözümümüz, Zoom Odaları, Windows, Mac, Linux, iOS, Android ve H.323/SIP odaları sistemlerinde en iyi video, ses ve ekran paylaşım deneyimi sunar.</Description>
-        <Archive sha1sum="b979ae687ae9685111ac8883288001cbc4bc6d4e" type="binary">
-           https://github.com/probonopd/Zoom.AppImage/releases/download/stable/Zoom_Workplace-6.4.3.827.glibc2.27-x86_64.AppImage
+        <Archive sha1sum="e11832c54d2ebe9f887ac48d5b45bac536e49e61" type="binary">
+           https://cdn.zoom.us/prod/6.6.11.6052/zoom_amd64.deb
         </Archive>
     </Source>
 
@@ -54,15 +54,24 @@
             <Dependency>qt5-webengine</Dependency>
             <Dependency>qt5-remoteobjects</Dependency>
         </RuntimeDependencies>
+        <!--
         <AdditionalFiles>
             <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/Zoom.desktop">Zoom.desktop</AdditionalFile>
             <AdditionalFile owner="root" permission="0644" target="/usr/share/pixmaps/Zoom.png">Zoom.png</AdditionalFile>
             <AdditionalFile owner="root" permission="0644" target="/usr/share/pixmaps/application-x-zoom.png">application-x-zoom.png</AdditionalFile>
             <AdditionalFile owner="root" permission="0644" target="/usr/share/mime/packages/zoom.xml">zoom.xml</AdditionalFile>
         </AdditionalFiles>
+        -->
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2025-12-12</Date>
+            <Version>6.6.11.6052</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="1">
             <Date>2025-09-30</Date>
             <Version>6.6.0.466</Version>

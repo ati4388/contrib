@@ -16,7 +16,9 @@
         <IsA>app:gui</IsA>
         <Summary>A Dropbox client</Summary>
         <Description>Dropbox is a Web-based file hosting service which uses cloud computing to enable users to store and share files and folders with others across the Internet using file synchronization.</Description>
-        <Archive sha1sum="67048f0f87af3a69389fbf40865e4a7b03a539b4" type="targz">https://edge.dropboxstatic.com/dbx-releng/client/dropbox-lnx.x86_64-213.4.4597.tar.gz</Archive>
+        <Archive sha1sum="e6099de2b8e7b6fbbdc4fcb04d6db1a58d06b323" type="targz">
+            https://edge.dropboxstatic.com/dbx-releng/client/dropbox-lnx.x86_64-238.4.6075.tar.gz
+        </Archive>
     </Source>
     <Package>
         <Name>dropbox-client</Name>
@@ -61,6 +63,13 @@
     </Package>
 
     <History>
+        <Update release="13">
+            <Date>2025-12-11</Date>
+            <Version>238.4.6075</Version>
+            <Comment>Release bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="12">
             <Date>2024-12-09</Date>
             <Version>213.4.4597</Version>

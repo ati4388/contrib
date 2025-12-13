@@ -15,4 +15,6 @@ def install():
     pisitools.insinto("/opt/anydesk", "anydesk-"+Version+"/*")
     pisitools.insinto("/usr/share/polkit-1/actions", "anydesk-"+Version+"/polkit-1/com.anydesk.anydesk.policy")
     pisitools.insinto("/etc/init.d", "anydesk-"+Version+"/init/anydesk")
+    pisitools.insinto("/usr/share/applications", "anydesk-"+Version+"/anydesk.desktop")
+    pisitools.insinto("/usr/share/pixmaps/hicolor", "anydesk-"+Version+"/icons/hicolor/*")
     pisitools.dosym("/opt/anydesk/anydesk", "/usr/bin/anydesk")

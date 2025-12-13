@@ -14,8 +14,8 @@
         <Description xml:lang="tr">Hızlı ve güvenli bir web tarayıcısı</Description>
         <License>EULA</License>
         <Icon>opera</Icon>
-        <Archive sha1sum="21b27ad09184ef9fb8eaaa5c674d309f4846422e" type="binary">
-            https://download5.operacdn.com/ftp/pub/opera/desktop/122.0.5643.92/linux/opera-stable_122.0.5643.92_amd64.deb
+        <Archive sha1sum="7b1bcdaaffa03aa8009363d4c64a9dade601d3d8" type="binary">
+            https://download5.operacdn.com/ftp/pub/opera/desktop/125.0.5729.15/linux/opera-stable_125.0.5729.15_amd64.deb
         </Archive>
     </Source>
     <Package>
@@ -68,6 +68,13 @@
     <!-- https://download5.operacdn.com/ftp/pub/opera/desktop/ -->
 
     <History>
+        <Update release="49">
+            <Date>2025-12-11</Date>
+            <Version>125.0.5729.15</Version>
+            <Comment>Version bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="48">
             <Date>2025-10-01</Date>
             <Version>122.0.5643.92</Version>

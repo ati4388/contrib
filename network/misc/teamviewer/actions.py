@@ -12,7 +12,7 @@ WorkDir = "."
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf teamviewer_amd64.deb")
+    shelltools.system("ar xf teamviewer_15.72.3_amd64.deb")
     shelltools.system("tar xf data.tar.xz")
 
 def install():

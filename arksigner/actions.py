@@ -6,12 +6,12 @@ from pisi.actionsapi import pisitools
 from pisi.actionsapi import shelltools
 from pisi.actionsapi import get
 
-# WorkDir = ""
-# NoStrip = "/"
+# WorkDir = ""
+# NoStrip = "/"
 
 def setup():
-    shelltools.system("ar xf arksigner-pub-2.3.11.deb")
-    shelltools.system("tar xvf %s/data.tar.xz --exclude=./usr/bin/arksigner/libs/libQt5*" %get.workDIR())
+    shelltools.system("ar xf arksigner-pub-%s.deb" % get.srcVERSION())
+    shelltools.system("tar xvf %s/data.tar.xz --exclude=./usr/bin/arksigner/libs/libQt5*" % get.workDIR())
 
 def build():
     pass

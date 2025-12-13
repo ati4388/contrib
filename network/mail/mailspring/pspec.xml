@@ -12,11 +12,11 @@
         <IsA>app:gui</IsA>
         <Summary>A beautiful, fast and maintained fork of Nylas Mail by one of the original authors.</Summary>
         <Description>A beautiful, fast and maintained fork of Nylas Mail by one of the original authors..</Description>
-        <Archive sha1sum="007c5637a1ed82ea128a4a09fee2652f7170620c" type="binary">
-            https://github.com/Foundry376/Mailspring/releases/download/1.14.0/mailspring-1.14.0-amd64.deb
+        <Archive sha1sum="fa5c946560a2d8d1d8b47df7d7ccc9fcf98d8f98" type="binary">
+            https://github.com/Foundry376/Mailspring/releases/download/1.16.0/mailspring-1.16.0-amd64.deb
         </Archive>
     </Source>
-
+    <!-- https://github.com/Foundry376/Mailspring/releases -->
     <Package>
         <Name>mailspring</Name>
         <RuntimeDependencies>
@@ -41,6 +41,13 @@
     </Package>
 
     <History>
+        <Update release="7">
+            <Date>2025-12-11</Date>
+            <Version>1.16.0</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="6">
             <Date>2024-12-05</Date>
             <Version>1.14.0</Version>

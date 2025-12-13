@@ -11,7 +11,7 @@
         <License>IBC</License>
         <IsA>app:gui</IsA>
         <Summary>Udf dosya uzantısı açmaya yarayan program.</Summary>
-        <Description>Udf dosya uzantısı açmaya yarayan program.</Description>
+        <Description>Udf dosya uzantısı açmaya yarayan program.Erkan IŞIK</Description>
         <Archive sha1sum="ba1405699b16cce7f7fde8b1a310df40324a4171" type="binary">
             https://rayp.adalet.gov.tr/resimler/2/dosya/uyap-pardus-5-4-14-amd6403-06-20251-41-pm.zip
         </Archive>
@@ -34,6 +34,10 @@
         <Provides>
             <COMAR script="package.py">System.Package</COMAR>
         </Provides>
+        <AdditionalFiles>
+            <AdditionalFile target="/usr/share/applications/dokuman.desktop">dokuman.desktop</AdditionalFile>
+            <AdditionalFile target="/usr/share/applications/sablon.desktop">sablon.desktop</AdditionalFile>
+        </AdditionalFiles>
     </Package>
 
     <History>

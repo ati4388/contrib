@@ -13,7 +13,9 @@
         <IsA>app</IsA>
         <Summary>Steam for linux</Summary>
         <Description>Steam Digital Platform Runner</Description>
-        <Archive sha1sum="2dfab8e42c685eebb5b89869d69f8d6f8e95242f" type="targz">https://repo.steampowered.com/steam/pool/steam/s/steam/steam_1.0.0.78.tar.gz</Archive>
+        <Archive sha1sum="372550729b88d0e1e36c153015a82d85d624a97d" type="targz">
+            https://repo.steampowered.com/steam/pool/steam/s/steam/steam_1.0.0.85.tar.gz
+        </Archive>
         <Patches>
            <!-- 
             <Patch level="1">alsa_sdl_audiodriver.patch</Patch>             
@@ -46,6 +48,13 @@
     </Package>
 
     <History>
+        <Update release="16">
+            <Date>2025-12-11</Date>
+            <Version>1.0.0.85</Version>
+            <Comment>Version bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="15">
             <Date>2023-12-15</Date>
             <Version>1.0.0.78</Version>

@@ -17,8 +17,8 @@
         <IsA>app:gui</IsA>
 
 
-        <Archive sha1sum="94d70e64ba6c05ec3bed032b793b1ac5b5389305" type="targz">
-            https://stable.dl2.discordapp.net/apps/linux/0.0.111/discord-0.0.111.tar.gz
+        <Archive sha1sum="ad5a15bd79c99b1748d3480b3ab11c7f1c384a5b" type="targz">
+           https://stable.dl2.discordapp.net/apps/linux/0.0.118/discord-0.0.118.tar.gz
         </Archive>
      </Source>
 
@@ -50,6 +50,13 @@
     </Package>
 
     <History>
+        <Update release="38">
+            <Date>2025-12-11</Date>
+            <Version>0.0.118</Version>
+            <Comment>Version Bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="37">
             <Date>2025-09-30</Date>
             <Version>0.0.111</Version>
