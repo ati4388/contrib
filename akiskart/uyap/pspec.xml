@@ -3,7 +3,7 @@
 <PISI>
     <Source>
         <Name>uyap</Name>
-        <Homepage>http://www.uyap.gov.tr</Homepage>
+        <Homepage>https://www.uyap.gov.tr/Uyap-Editor</Homepage>
         <Packager> 
             <Name>Pisilinux Community</Name>
             <Email>admins@pisilinux.org</Email>
@@ -12,10 +12,11 @@
         <IsA>app:gui</IsA>
         <Summary>Udf dosya uzantısı açmaya yarayan program.</Summary>
         <Description>Udf dosya uzantısı açmaya yarayan program.Erkan IŞIK</Description>
-        <Archive sha1sum="ba1405699b16cce7f7fde8b1a310df40324a4171" type="binary">
-            https://rayp.adalet.gov.tr/resimler/2/dosya/uyap-pardus-5-4-14-amd6403-06-20251-41-pm.zip
+        <Archive sha1sum="b284281aa03327f098fd1feda55e4a4a63207cce" type="binary">
+           https://rayp.adalet.gov.tr/resimler/2/dosya/uyap-pardus-5-4-16-amd6429-12-20252-41-pm.zip
         </Archive>
     </Source>
+
 
     <Package>
         <Name>uyap</Name>
@@ -41,6 +42,13 @@
     </Package>
 
     <History>
+        <Update release="17">
+            <Date>2026-01-12</Date>
+            <Version>5.4.16</Version>
+            <Comment>V.bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="16">
             <Date>2025-10-01</Date>
             <Version>5.4.14</Version>

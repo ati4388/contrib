@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://pisilinux.org/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>antigravity</Name>
+        <Homepage>https://antigravity.google/</Homepage>
+        <Packager>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Packager>
+        <Summary xml:lang="en">An agentic development platform from Google, evolving the IDE into the agent-first era.</Summary>
+        <Summary xml:lang="tr">Google'dan bir agentic geliştirme platformu, IDE'yi agent-first era'ye evrimini getiriyor.</Summary>
+        <Description xml:lang="en" >An agentic development platform from Google, evolving the IDE into the agent-first era.</Description>
+        <Description xml:lang="tr" >Google'dan bir agentic geliştirme platformu, IDE'yi agent-first era'ye evrimini getiriyor.</Description>
+        <License>LicenseRef-Google-Antigravity</License>
+        <PartOf>programming.tools</PartOf>
+        <Icon>antigravity.png</Icon>
+        <Archive sha1sum="8217708f2bf1a6a79e6408a2a6e7f6936c1ffa73" type="targz">
+          https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/1.13.3-4533425205018624/linux-x64/Antigravity.tar.gz
+        </Archive>  
+       </Source>
+
+    <Package>
+        <Name>antigravity</Name>
+        <RuntimeDependencies> 
+            <Dependency>alsa-lib</Dependency>
+            <Dependency>at-spi2-core</Dependency>
+            <Dependency>bash</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>dbus</Dependency>
+            <Dependency>expat</Dependency>
+            <Dependency>gcc</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>glibc</Dependency>
+            <Dependency>gtk3</Dependency>
+            <Dependency>cups</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libxcb</Dependency>
+            <Dependency>libXcomposite</Dependency>
+            <Dependency>libXdamage</Dependency>
+            <Dependency>libXext</Dependency>
+            <Dependency>libXfixes</Dependency>
+            <Dependency>libxkbcommon</Dependency>
+            <Dependency>libxkbfile</Dependency>
+            <Dependency>libXrandr</Dependency>
+            <Dependency>mesa</Dependency>
+            <Dependency>nspr</Dependency>
+            <Dependency>nss</Dependency>
+            <Dependency>pango</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="executable">/opt</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/bash-completion</Path>
+            <Path fileType="data">/usr/share/mime</Path>
+            <Path fileType="data">/usr/share/pixmaps/</Path>                      
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile target="/usr/share/applications/antigravity.desktop" owner="root">antigravity.desktop</AdditionalFile>
+            <AdditionalFile target="/usr/share/applications/antigravity-url-handler.desktop" owner="root">antigravity-url-handler.desktop</AdditionalFile>
+            <AdditionalFile target="/usr/share/bash-completion/completions/antigravity">antigravity</AdditionalFile>
+            <AdditionalFile target="/usr/share/mime/packages/antigravity-workspace.xml">antigravity-workspace.xml</AdditionalFile>
+            <AdditionalFile target="/usr/share/pixmaps/antigravity.png">antigravity.png</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2025-12-29</Date>
+            <Version>1.13.3</Version>
+            <Comment>First release</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>
