@@ -16,7 +16,7 @@
         <Description xml:lang="tr">Video iletişim ve sanal toplantı platformu</Description>
         <License>custom</License>
         <PartOf>Network</PartOf>
-        <Archive sha1sum="eabe54f4c2c56a5624203b3b97ea684437b1cea6" type="binary">
+        <Archive sha1sum="b4080421ed7a6eb685de6c0953167e7875cb4eef" type="binary">
             https://binaries.webex.com/WebexDesktop-Ubuntu-Official-Package/Webex.deb
         </Archive>        
     </Source>
@@ -62,6 +62,13 @@
         </AdditionalFiles>
     </Package>
     <History>
+        <Update release="10">
+            <Date>2026-04-05</Date>
+            <Version>46.2.1.34187</Version>
+            <Comment>Version Bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="9">
             <Date>2025-12-11</Date>
             <Version>45.10.1.33646</Version>

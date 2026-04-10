@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Encoding=UTF-8
+Name=vscodium
+GenericName=vscodium
+GenericName[tr]=vscodium
+Comment=vscodium
+Comment[tr]=vscodium
+Icon=vscodium
+Exec=/opt/VSCodium/codium  --no-sandbox %U
+Terminal=false
+StartupNotify=false
+Categories=Development;
+MimeType=text/plain;inode/directory;application/x-visual-studio-code-workspace;
+Actions=new-empty-window;
+Keywords=vscodium;
+
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Exec=/opt/VSCodium/codium --no-sandbox --new-window %F
+Icon=vscodium

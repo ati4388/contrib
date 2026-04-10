@@ -12,7 +12,9 @@
         <Description>ChatGPT Desktop Application (Mac, Windows and Linux)</Description>
         <License>gpl2</License>
         <PartOf>Game</PartOf>
-        <Archive sha1sum="e56b93e95023d30d5a89bf2e2c0c57281097ece0" type="binary">https://github.com/lencx/ChatGPT/releases/download/v1.1.0/ChatGPT_1.1.0_linux_x86_64.AppImage.tar.gz</Archive>
+        <Archive sha1sum="e56b93e95023d30d5a89bf2e2c0c57281097ece0" type="binary">  
+            https://github.com/lencx/ChatGPT/releases/download/v1.1.0/ChatGPT_1.1.0_linux_x86_64.AppImage.tar.gz
+        </Archive>
         <BuildDependencies>
             <Dependency>libthai-devel</Dependency>
         </BuildDependencies>

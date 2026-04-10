@@ -15,8 +15,8 @@
         <License>LicenseRef-Google-Antigravity</License>
         <PartOf>programming.tools</PartOf>
         <Icon>antigravity.png</Icon>
-        <Archive sha1sum="8217708f2bf1a6a79e6408a2a6e7f6936c1ffa73" type="targz">
-          https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/1.13.3-4533425205018624/linux-x64/Antigravity.tar.gz
+        <Archive sha1sum="96899f1b13694bfcbd6124f420c682441f0d361a" type="targz">
+            https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/1.16.5-6703236727046144/linux-x64/Antigravity.tar.gz
         </Archive>  
        </Source>
 
@@ -66,6 +66,21 @@
     </Package>
 
     <History>
+        
+        <Update release="3">
+            <Date>2026-02-08</Date>
+            <Version>1.16.5</Version>
+            <Comment>Update to 1.16.5</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
+        <Update release="2">
+            <Date>2026-01-18</Date>
+            <Version>1.14.2</Version>
+            <Comment>Update to 1.14.2</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="1">
             <Date>2025-12-29</Date>
             <Version>1.13.3</Version>

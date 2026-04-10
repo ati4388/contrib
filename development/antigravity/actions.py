@@ -13,5 +13,3 @@ NoStrip = ["/"]
 
 def install():
      pisitools.insinto("/opt/Antigravity", "Antigravity/*")
-    #pisitools.insinto("/opt/", "*")
-    #pisitools.dosym("/opt/antigravity/bin/antigravity", "/usr/bin/antigravity")

@@ -8,11 +8,17 @@
             <Name>Erkan IŞIK</Name>
             <Email>erkanisik@pisilinux.org</Email>
         </Packager>
-        <Summary>An office suite that combines text, spreadsheet and presentation editors</Summary>
-        <Description>An office suite that combines text, spreadsheet and presentation editors</Description>
+        <Summary xml:lang="en">An office suite that combines text, spreadsheet and presentation editors, providing the ability to create, view, and edit documents.</Summary>
+        <Summary xml:lang="tr">Metin, tablo ve sunum düzenleyicilerini bir araya getiren; belgeleri oluşturma, görüntüleme ve düzenleme imkanı sunan bir ofis paketi.</Summary>
+        <Description xml:lang="en">Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents.</Description>
+        <Description xml:lang="tr">Metin, tablo ve sunum düzenleyicilerini bir araya getiren; belgeleri oluşturma, görüntüleme ve düzenleme imkanı sunan bir ofis paketi.
+Alternatif kısa çeviri: Belgeleri oluşturma, görüntüleme ve düzenleme imkanı sunan; metin, tablo ve sunum editörlerini bir arada bulunduran ofis paketi.</Description>
         <License>AGPL3</License>
         <PartOf>Office</PartOf>
-        <Archive sha1sum="6ddaf9e0281ef02c9fd9958a8fe8c60c8eae4737" type="binary">https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v7.0.0/DesktopEditors-x86_64.AppImage</Archive>        
+        <Archive sha1sum="34e6305dd2c9863224c4d4307bf7e0e8f9ff9ee8" type="tarxz">
+            https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.2.1/onlyoffice-desktopeditors-x64.tar.xz
+        </Archive> 
+        <!-- https://github.com/ONLYOFFICE/DesktopEditors/ -->
     </Source>
 
     <Package>
@@ -36,16 +42,19 @@
         <Files>
             <Path fileType="data">/opt</Path>
             <Path fileType="executable">/usr/bin</Path>  
-            <Path fileType="data">/usr/share/applications</Path>
-            <Path fileType="data">/usr/share/icons</Path>         
+            <Path fileType="data">/usr/share</Path>         
         </Files>
-        <AdditionalFiles>
-            <AdditionalFile target="/usr/share/applications/onlyoffice.desktop">onlyoffice.desktop</AdditionalFile>
-            <AdditionalFile target="/usr/share/icons/onlyoffice.png">onlyoffice.png</AdditionalFile>
-        </AdditionalFiles>
+       
     </Package>
     
-    <History>       
+    <History>    
+        <Update release="2">
+            <Date>2026-01-13</Date>
+            <Version>9.2.1</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="1">
             <Date>2022-02-05</Date>
             <Version>7.0.0</Version>

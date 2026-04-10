@@ -11,8 +11,8 @@
         <Summary>ArkSigner e-signature application</Summary>
         <Description>E-signature app that's digital and practical with everything it has</Description>
         <License>EULA</License>
-        <Archive type="binary" sha1sum="083f9ad642a54c7745b2cf8fa6f6fa748997c691">
-            https://downloads.arksigner.com/files/arksigner-pub-2.3.12.deb
+        <Archive type="binary" sha1sum="375606cbfcd108eaf3adba977d8edf797148af65">
+            https://downloads.arksigner.com/files/arksigner-pub-2.3.13.deb
         </Archive>
     </Source>
 
@@ -38,6 +38,13 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>2026-01-29</Date>
+            <Version>2.3.13</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="3">
             <Date>2025-11-06</Date>
             <Version>2.3.12</Version>

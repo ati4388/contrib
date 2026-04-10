@@ -9,7 +9,7 @@ from pisi.actionsapi import get, pisitools, shelltools
 def setup():
     shelltools.system("pwd")
     shelltools.system("ar xf mailspring-%s-amd64.deb" % get.srcVERSION())
-    shelltools.system("tar xf data.tar.xz")
+    shelltools.system("tar xf data.tar.zst")
 
 
 def install():

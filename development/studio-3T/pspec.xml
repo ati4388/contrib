@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://pisilinux.org/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>studio-3t</Name>
+        <Homepage>https://studio3t.com</Homepage>
+        <Packager>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Packager>
+        <License>custom</License>
+        <IsA>app:gui</IsA>
+        <Summary>Professional Client, IDE and GUI for MongoDB</Summary>
+        <Description>Studio 3T is the professional GUI and IDE for MongoDB.</Description>
+        <BuildDependencies>
+            <Dependency>jre8-openjdk</Dependency>
+            <Dependency>freetype</Dependency>
+            <Dependency>fontconfig</Dependency>
+        </BuildDependencies>
+        <Archive sha1sum="779146a13e2586f8fc3597d7b739cc8f421feca6" type="targz" buildpath=".">
+            https://download.studio3t.com/studio-3t/linux/2026.3.0/studio-3t-linux-x64.tar.gz
+        </Archive>
+    </Source>
+
+    <Package>
+        <Name>studio-3t</Name>
+        <RuntimeDependencies>
+            <Dependency>gtk2</Dependency>
+            <Dependency>jre8-openjdk</Dependency>
+            <Dependency>freetype</Dependency>
+            <Dependency>fontconfig</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/opt/studio-3t</Path>
+            <Path fileType="data">/usr/share/pixmaps</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/studio-3t.desktop">studio-3t.desktop</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2026-04-10</Date>
+            <Version>2026.3.0</Version>
+            <Comment>İlk paketleme.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>

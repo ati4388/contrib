@@ -1,0 +1,18 @@
+--- /usr/bin/uhapsigner
++++ /usr/bin/uhapsigner
+@@ -1,12 +1,5 @@
+ #!/bin/bash
+ 
+-if [ -d "/usr/lib/jvm/java-25-openjdk-amd64" ]
+-then
+-    JAVA_HOME="/usr/lib/jvm/java-25-openjdk-amd64"
+-elif [ -d "/usr/lib/jvm/java-21-openjdk-amd64" ]
+-then
+-    JAVA_HOME="/usr/lib/jvm/java-21-openjdk-amd64"
+-else
+-    echo "Uyumlu Java sürümü bulunamadı"
+-    exit 1
+-fi
++JAVA_HOME="/usr/lib/jvm/java-openjdk"
+ 
+ PATH="${JAVA_HOME}/bin:${PATH}"

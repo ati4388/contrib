@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://pisilinux.org/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>uhapsigner</Name>
+        <Summary>UHAP İmzalama Aracı</Summary>
+        <Description>UHAP İmzalama Aracı</Description>
+    </Source>
+</PISI>

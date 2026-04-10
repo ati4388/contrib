@@ -6,7 +6,7 @@
         <Homepage>https://brave.com/</Homepage>
         <PartOf>network.web</PartOf>
         <IsA>app:gui</IsA>  
-        <Icon>brave-browser</Icon>
+        <Icon>brave-logo</Icon>
         <Summary xml:lang="en">A web browser that stops ads and trackers by default</Summary>
         <Description xml:lang="en">A web browser that stops ads and trackers by default</Description>
         <Summary xml:lang="tr">Varsayılan olarak reklamları ve takip kodlarını engelleyen bir web tarayıcısı</Summary>
@@ -16,9 +16,10 @@
             <Email>erkanisik@pisilinux.org</Email>
         </Packager>
         <License>Mozilla Public License 2.0</License>
-        <Archive sha1sum="6f312f69813941189036b8370ddb47e73929b654" type="binary">
-           https://github.com/brave/brave-browser/releases/download/v1.87.72/brave-browser-nightly-1.87.72-linux-amd64.zip
+        <Archive sha1sum="a3eb1e8107b743e72043d77398dd02325ad45496" type="binary">
+           https://github.com/brave/brave-browser/releases/download/v1.91.10/brave-browser-nightly-1.91.10-linux-amd64.zip
         </Archive>
+        <!-- https://github.com/brave/brave-browser/ -->
     </Source>
 
     <Package>
@@ -47,6 +48,21 @@
     </Package>
 
     <History>
+    
+        <Update release="43">
+            <Date>2026-10-16</Date>
+            <Version>1.91.10</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
+        <Update release="42">
+            <Date>2026-02-05</Date>
+            <Version>1.89.4</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="41">
             <Date>2025-12-11</Date>
             <Version>1.87.72</Version>

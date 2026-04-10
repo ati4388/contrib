@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ -d "/usr/lib/jvm/java-openjdk" ]
+then
+	JAVA_HOME="/usr/lib/jvm/java-openjdk"
+elif [ -d "/usr/lib/jvm/java-8-openjdk" ]
+then
+	JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
+else
+	echo "Uyumlu Java sürümü bulunamadı"
+	exit 1
+fi
+
+PATH="${JAVA_HOME}/bin:${PATH}"
+
+BASE_DIR="/usr/lib/uhapsigner"
+
+for CLASS in "${BASE_DIR}"/*.jar
+do
+	CPPATH="${CLASS}:${CPPATH}"
+done
+[ -n "${CPPATH}" ] && CPPATH="${CPPATH::-1}"
+
+java -Xmx200m -cp "${CPPATH}" "root.App" "ocas-prod"

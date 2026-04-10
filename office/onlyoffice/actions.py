@@ -6,11 +6,12 @@
 
 from pisi.actionsapi import get, pisitools, shelltools
 
-NoStrip = ["/opt", "/usr"]
-IgnoreAutodep = True
+#NoStrip = ["/opt", "/usr"]
+#IgnoreAutodep = True
+WorkDir = "."
+NoStrip = ["/"]
+
 
 def install():
-    pisitools.dodir ("/opt/onlyoffice")
-    pisitools.doexe("DesktopEditors-x86_64.AppImage", "/opt/onlyoffice")
-    pisitools.dosym("/opt/onlyoffice/DesktopEditors-x86_64.AppImage", "/usr/bin/onlyoffice")
-   
+    pisitools.insinto("/opt/onlyoffice/", "opt/onlyoffice/*")
+    pisitools.insinto("/usr/", "usr/*")

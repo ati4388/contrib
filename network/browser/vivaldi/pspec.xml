@@ -14,8 +14,8 @@
         <Description xml:lang="tr">İhtiyacınız olan tüm özellikler ve araçlar yerleşik olarak gelir ve benzersiz özelleştirme seviyeleri sunar.</Description>
         <License>EULA</License>
         <Icon>vivaldi</Icon>
-        <Archive sha1sum="882f123a90c46fd52c286023fb2817d44449202a" type="binary">
-           https://downloads.vivaldi.com/stable/vivaldi-stable_7.7.3851.61-1_amd64.deb
+        <Archive sha1sum="d8749cee5e28dfe5285a1e455b1b46d1776d70c4" type="binary">
+           https://downloads.vivaldi.com/stable/vivaldi-stable_7.9.3970.47-1_amd64.deb
         </Archive>
     </Source>
     <Package>
@@ -47,6 +47,20 @@
     </Package>
 
     <History>
+        <Update release="28">
+            <Date>2026-04-05</Date>
+            <Version>7.9.3970.47</Version>
+            <Comment>Version Bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
+        <Update release="27">
+            <Date>2026-02-05</Date>
+            <Version>7.8.3925.62</Version>
+            <Comment>Version Bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="26">
             <Date>2025-12-11</Date>
             <Version>7.7.3851.61</Version>

@@ -11,7 +11,7 @@
         <Icon>viber</Icon>
         <Summary>Proprietary cross-platform IM and VoIP softwareı</Summary>
         <Description>Free calls, text and picture sharing with anyone, anywhere!</Description>
-        <Archive sha1sum="b1b7f4fa833a54f9912f218c7d7b1bf3673602ea" type="binary">
+        <Archive sha1sum="60069f22bc58be935027f41be86a2d95c1e246f9" type="binary">
             http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
         </Archive>
        
@@ -54,6 +54,13 @@
     </Package>
 
     <History>
+        <Update release="9">
+            <Date>2026-04-05</Date>
+            <Version>27.3.0.2</Version>
+            <Comment>Version Bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="8">
             <Date>2025-09-30</Date>
             <Version>24.9.0.3</Version>

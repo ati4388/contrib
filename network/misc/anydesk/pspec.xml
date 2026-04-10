@@ -15,8 +15,8 @@
         <Description xml:lang="tr"> İster ofisin diğer ucundan, ister dünyanın öbür ucundan bilgisayarınıza kolayca bağlanın. AnyDesk, hem BT profesyonelleri hem de hareket halindeki kullanıcılar için hızlı, güvenli ve güvenilir uzak masaüstü deneyimi sunar.</Description>
         <Description xml:lang="en">Connect to a computer remotely, be it from the other end of the office or halfway around the world. AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="6d64d4fe537ba52f80581ceefb4c4a2a5681eb84" type="targz">
-            https://download.anydesk.com/linux/anydesk-7.1.1-amd64.tar.gz
+        <Archive sha1sum="12f7d120c649ac19775c8e9eb3ddef0efc998a2d" type="targz">
+            https://download.anydesk.com/linux/anydesk-8.0.2-amd64.tar.gz
         </Archive>       
     </Source>
 
@@ -62,6 +62,13 @@
     </Package>
 
     <History>
+        <Update release="12">
+            <Date>2026-04-05</Date>
+            <Version>8.0.2</Version>
+            <Comment>Release bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="11">
             <Date>2025-11-06</Date>
             <Version>7.1.1</Version>

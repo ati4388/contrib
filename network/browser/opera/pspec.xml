@@ -14,9 +14,10 @@
         <Description xml:lang="tr">Hızlı ve güvenli bir web tarayıcısı</Description>
         <License>EULA</License>
         <Icon>opera</Icon>
-        <Archive sha1sum="7b1bcdaaffa03aa8009363d4c64a9dade601d3d8" type="binary">
-            https://download5.operacdn.com/ftp/pub/opera/desktop/125.0.5729.15/linux/opera-stable_125.0.5729.15_amd64.deb
+        <Archive sha1sum="4a54b0ed02127f25c526dda810e86ba0860bfd38" type="binary">
+            https://download5.operacdn.com/ftp/pub/opera/desktop/129.0.5823.44/linux/opera-stable_129.0.5823.44_amd64.deb
         </Archive>
+        <!-- https://download5.operacdn.com/ftp/pub/opera/desktop/ -->
     </Source>
     <Package>
         <Name>opera-stable</Name>
@@ -65,9 +66,21 @@
             <AdditionalFile target="/opt/opera/libffmpeg.so" owner="root">libffmpeg.so</AdditionalFile>             
         </AdditionalFiles>
     </Package>
-    <!-- https://download5.operacdn.com/ftp/pub/opera/desktop/ -->
-
     <History>
+        <Update release="51">
+            <Date>2026-04-05</Date>
+            <Version>129.0.5823.44</Version>
+            <Comment>Version bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
+        <Update release="50">
+            <Date>2026-02-05</Date>
+            <Version>126.0.5750.59</Version>
+            <Comment>Version bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="49">
             <Date>2025-12-11</Date>
             <Version>125.0.5729.15</Version>
