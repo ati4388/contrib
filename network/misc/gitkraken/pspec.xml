@@ -10,10 +10,12 @@
         </Packager>
         <License>custom</License>
         <IsA>gui</IsA>
-        <Summary>The intuitive, fast, and beautiful cross-platform Git client.</Summary>
-        <Description>GitKraken makes Git commands and processes easy, fast, and intuitive. .</Description>
-        <Archive sha1sum="e3983f549c929569171ab205e55cf796959f0c76" type="targz">
-            https://api.gitkraken.dev/releases/production/linux/x64/11.7.0/gitkraken-amd64.tar.gz
+        <Summary xml:lang="en">The intuitive, fast, and beautiful cross-platform Git client.</Summary>
+        <Summary xml:lang="tr">Kullanımı kolay, hızlı ve estetik, platformlar arası Git istemcisi.</Summary>
+        <Description xml:lang="en">GitKraken makes Git commands and processes easy, fast, and intuitive. .</Description>
+        <Description xml:lang="tr">GitKraken, Git komutlarını ve işlemleri kolay, hızlı ve sezgisel hale getirir. .</Description>
+        <Archive sha1sum="f118a59db28f9fe230ad33286b6d9c711558f8be" type="targz">
+            https://release.gitkraken.dev/gkd/production/normal/linux/x64/11.10.0/3ARdeMHdLp4BfF6A2OA7sVmyNSG/gitkraken-amd64.tar.gz
         </Archive>
     </Source>
     <Package>
@@ -37,6 +39,13 @@
     </Package>
 
     <History>
+        <Update release="13">
+            <Date>2026-04-05</Date>
+            <Version>11.10.0</Version>
+            <Comment>Version bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="12">
             <Date>2025-12-11</Date>
             <Version>11.7.0</Version>

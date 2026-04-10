@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE PISI SYSTEM "http://www.pisilinux.org/projeler/pisi/pisi-spec.dtd">
+<!DOCTYPE PISI SYSTEM "https://pisilinux.org/projeler/pisi/pisi-spec.dtd">
 <PISI>
     <Source>
         <Name>dropbox-client</Name>
@@ -14,10 +14,12 @@
         <License>LGPLv2.1</License>
         <Icon>dropbox</Icon>
         <IsA>app:gui</IsA>
-        <Summary>A Dropbox client</Summary>
-        <Description>Dropbox is a Web-based file hosting service which uses cloud computing to enable users to store and share files and folders with others across the Internet using file synchronization.</Description>
-        <Archive sha1sum="e6099de2b8e7b6fbbdc4fcb04d6db1a58d06b323" type="targz">
-            https://edge.dropboxstatic.com/dbx-releng/client/dropbox-lnx.x86_64-238.4.6075.tar.gz
+        <Summary xml:lang="en">A Dropbox client</Summary>
+        <Summary xml:lang="tr">Dropbox istemcisi</Summary>
+        <Description xml:lang="en">Dropbox is a Web-based file hosting service which uses cloud computing to enable users to store and share files and folders with others across the Internet using file synchronization.</Description>
+        <Description xml:lang="tr">Dropbox, kullanıcıların Internet üzerinden dosya ve klasörleri senkronize ederek depolayabileceği ve paylaşabileceği bulut bilişim kullanarak çalışan bir web tabanlı dosya barındırma hizmetidir.</Description>
+        <Archive sha1sum="3e20c9a8bb104ffceb432c7b49c72cf326b0dabf" type="targz">
+            https://edge.dropboxstatic.com/dbx-releng/client/dropbox-lnx.x86_64-246.4.3513.tar.gz
         </Archive>
     </Source>
     <Package>
@@ -63,6 +65,14 @@
     </Package>
 
     <History>
+    
+        <Update release="14">
+            <Date>2026-04-05</Date>
+            <Version>246.4.3513</Version>
+            <Comment>Release bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="13">
             <Date>2025-12-11</Date>
             <Version>238.4.6075</Version>

@@ -9,10 +9,12 @@
             <Email>erkanisik@pisilinux.org</Email>
         </Packager>
         <License>custom</License>
-        <Summary>A tunneling, reverse proxy for developing and understanding networked, HTTP services</Summary>
-        <Description>A tunneling, reverse proxy for developing and understanding networked, HTTP services</Description>
-        <Archive sha1sum="a46f6c6634daf6e3cab7d6ed7396fb6e5672977a" type="binary">
-            https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
+        <Summary xml:lang="en">A tunneling, reverse proxy for developing and understanding networked, HTTP services</Summary>
+        <Summary xml:lang="tr">Ağ üzerinde çalışan HTTP servislerini tünelleme ve ters proxy için bir araç</Summary>
+        <Description xml:lang="en">A tunneling, reverse proxy for developing and understanding networked, HTTP services</Description>
+        <Description xml:lang="tr">Ağ üzerinde çalışan HTTP servislerini tünelleme ve ters proxy için bir araç</Description>
+        <Archive sha1sum="ed29e6904e60b0a78dfe92ac2c6132277623fdc1" type="binary">
+           https://bin.ngrok.com/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
         </Archive>
     </Source>
 
@@ -28,6 +30,13 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>2026-04-05</Date>
+            <Version>3.37.3</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="3">
             <Date>2025-12-11</Date>
             <Version>3.34.0</Version>

@@ -11,14 +11,14 @@
         <License>as-is</License>
         <License>TeamViewer GmbH</License>
         <IsA>app:gui</IsA>
-        <Summary>User friendly remote control application</Summary>
-        <Description>TeamViewer is a computer software for remote control, desktop sharing, and file transfer between Linux, Windows and Apple computers. TeamViewer is free for personal use. You can use TeamViewer completely free of charge to access your private computers or to help your friends with their computer problems. To buy a license for commercial use, please visit https://www.teamviewer.com </Description>
-        <Archive sha1sum="d03977d709ef99ec8da232cb03f7592b3d97cbac" type="binary">
-           https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.72.3_amd64.deb
+        <Summary xml:lang="en">User friendly remote control application</Summary>
+        <Summary xml:lang="tr">Kullanıcı dostu uzaktan kontrol uygulaması</Summary>
+        <Description xml:lang="en">TeamViewer is a computer software for remote control, desktop sharing, and file transfer between Linux, Windows and Apple computers. TeamViewer is free for personal use. You can use TeamViewer completely free of charge to access your private computers or to help your friends with their computer problems. To buy a license for commercial use, please visit https://www.teamviewer.com </Description>
+        <Description xml:lang="tr">TeamViewer, Linux, Windows ve Apple bilgisayarlar arasında uzaktan kontrol, masaüstü paylaşımı ve dosya transferi için bir bilgisayar yazılımıdır. TeamViewer kişisel kullanım için ücretsizdir. TeamViewer'ı tamamen ücretsiz olarak özel bilgisayarlarınıza erişmek veya arkadaşlarınıza bilgisayar sorunlarında yardımcı olmak için kullanabilirsiniz. Ticari kullanım için lisans satın almak için lütfen https://www.teamviewer.com adresini ziyaret edin.</Description>
+        <Archive sha1sum="b957c773b19167aa8eeeec70b06541917988a6e2" type="binary">
+           https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.76.5_amd64.deb
         </Archive>
-        <BuildDependencies>
-            <Dependency>binutils</Dependency>
-        </BuildDependencies>
+        
     </Source>
 
     <Package>
@@ -61,6 +61,13 @@
     </Package>
 
     <History>
+        <Update release="20">
+            <Date>2026-04-05</Date>
+            <Version>15.76.5</Version>
+            <Comment>version bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux</Email>
+        </Update>
         <Update release="19">
             <Date>2025-12-11</Date>
             <Version>15.72.3</Version>

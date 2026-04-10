@@ -16,8 +16,8 @@
         <Summary xml:lang="tr">Microsoft'un web tarayıcısı</Summary>
         <Description xml:lang="en">Microsoft Edge is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
         <Description xml:lang="tr">Microsoft Edge, web sayfalarını daha hızlı, güvenli ve kolay bir şekilde kullanmanıza yardımcı olacak minimal bir tasarım ile karmaşık teknolojiyi birleştirir.</Description>
-        <Archive sha1sum="0248ea60a1a50b56cd555e2968c1a71bd4c0315e" type="binary">        
-            https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_144.0.3719.92-1_amd64.deb
+        <Archive sha1sum="e2c4abda5f6aa494d9f623476d59f92028072b9a" type="binary">        
+           https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_146.0.3856.97-1_amd64.deb
         </Archive>     
         <!-- https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/ -->  
     </Source>
@@ -80,6 +80,13 @@
     </Package>
 
     <History>
+        <Update release="31">
+            <Date>2026-04-05</Date>
+            <Version>146.0.3856.97</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="30">
             <Date>2026-02-05</Date>
             <Version>144.0.3719.92</Version>

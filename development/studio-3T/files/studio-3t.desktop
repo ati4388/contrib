@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Studio 3T
+Name[tr]=Studio 3T
+Comment=The Professional Client, IDE and GUI for MongoDB
+Comment[tr]=MongoDB için profesyonel istemci, IDE ve kullanıcı arayüzü
+Exec=/usr/bin/studio-3t
+Icon=studio-3t
+Categories=Science;Education;Development;Application;
+Terminal=false
+StartupNotify=true

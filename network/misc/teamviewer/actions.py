@@ -9,10 +9,10 @@ from pisi.actionsapi import shelltools
 from pisi.actionsapi import get
 
 WorkDir = "."
-
+VERSION = get.srcVERSION()
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf teamviewer_15.72.3_amd64.deb")
+    shelltools.system("ar xf teamviewer_%s_amd64.deb" % VERSION)
     shelltools.system("tar xf data.tar.xz")
 
 def install():
